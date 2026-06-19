@@ -6,7 +6,7 @@ export class HealthController {
   check(): { status: string; service: string; timestamp: string } {
     return {
       status: "ok",
-      service: "predictmind-api",
+      service: "predictmind-gateway",
       timestamp: new Date().toISOString(),
     };
   }

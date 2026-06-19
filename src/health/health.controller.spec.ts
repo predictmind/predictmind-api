@@ -15,6 +15,6 @@ describe("HealthController", () => {
   it("returns an ok status", () => {
     const result = controller.check();
     expect(result.status).toBe("ok");
-    expect(result.service).toBe("predictmind-api");
+    expect(result.service).toBe("predictmind-gateway");
   });
 });
